@@ -1,0 +1,16 @@
+{
+  "name": "wolframsearch",
+  "main": "./lib/googlesearch",
+  "version": "1.8.0",
+  "description": "Search Highlighted word in wolfram",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "wolframsearch:wolfram-it"
+  },
+  "repository": "https://github.com/shendezhou/wolframsearch",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}

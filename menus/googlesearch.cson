@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle wolframsearch'
+      'command': 'wolframsearch:wolfram-it'
+    }
+  ]
+'menu': [
+  {
+    'label': 'My Packages'
+    'submenu': [
+      'label': 'wolfram Search'
+      'submenu': [
+        {
+          'label': 'Search'
+          'command': 'wolframsearch:wolfram-it'
+        }
+      ]
+    ]
+  }
+]
